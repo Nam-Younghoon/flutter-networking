@@ -140,7 +140,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 Future<InitRes> fetchInit() async {
-  final response = await http.get(Uri.parse('https://m5pw6cm813.execute-api.ap-northeast-2.amazonaws.com/dev1/common/init'));
+  final response = await http.get(Uri.parse(''));
 
   if(response.statusCode == 200) {
     return InitRes.fromJson(jsonDecode(response.body));
