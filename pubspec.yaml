@@ -38,6 +38,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   json_annotation: ^4.7.0
   http: ^0.13.5
+  lottie: ^2.1.0
+  flutter_svg: ^1.1.6
+  kakao_flutter_sdk: ^1.3.0 # 전체 추가
+  kakao_flutter_sdk_user: ^1.3.0 # 카카오 로그인
+  kakao_flutter_sdk_talk: ^1.3.0 # 카카오톡(소셜, 메시지)
+  kakao_flutter_sdk_story: ^1.3.0 # 카카오스토리
+  kakao_flutter_sdk_share: ^1.3.0 # 카카오톡 공유
+  kakao_flutter_sdk_navi: ^1.3.0 # 카카오내비
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +72,29 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - images/lake.jpeg
+    - images/
+    - assets/
+
+  fonts:
+    - family: FontBold
+      fonts:
+        - asset: fonts/SpoqaHanSansNeo-Bold.otf
+
+    - family: FontLight
+      fonts:
+        - asset: fonts/SpoqaHanSansNeo-Light.otf
+
+    - family: FontMedium
+      fonts:
+      - asset: fonts/SpoqaHanSansNeo-Medium.otf
+
+    - family: FontRegular
+      fonts:
+      - asset: fonts/SpoqaHanSansNeo-Regular.otf
+
+    - family: FontThin
+      fonts:
+      - asset: fonts/SpoqaHanSansNeo-Thin.otf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
