@@ -1,16 +1,6 @@
-# my_app2
+This is Example Project for practice Flutter.
 
-A new Flutter project.
+Various Example in this project
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ex 1. Use Lottie Animation
+Ex 2. Apply MVVM Pattern for call APIs & Updating UI
